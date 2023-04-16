@@ -1,0 +1,439 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar{
+    position: absolute;
+}
+
+.search-container {
+    /* max-width: 600px;
+    margin: 50px auto; */
+}
+
+input[type="text"] {
+    display: block;
+    width: calc(100% - 55px);
+    border-radius: 50px;
+    font-size: 18px;
+    /* font-weight: 600; */
+    /* color: #4b00ff; */
+    /* padding: 4px; */
+    margin-top: 40px;
+}
+
+.search-container form {
+    position: relative;
+}
+.search-container form button {
+    position: absolute;
+    left: 100px;
+    top: 0;
+    height: 100%;
+    width: 50px;
+    background: transparent;
+    border: transparent;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    outline: 0;
+}
+
+.navbar li{
+    display: inline;
+}
+
+.navbar{
+    width: 100%;
+    margin: auto;
+    display: flex;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    margin-right: 50px;
+}
+
+.center{
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 600px;
+}
+
+.menu{
+    width: 100%;
+    height: 900px;
+    /* border: 1px solid black; */
+}
+
+.banner{
+    background-image: url(images/bannerBack.png);
+    width: 100%;
+    height: 1056px;
+}
+
+.banLogo{
+    margin-left: 140px;
+    margin-bottom: 40px;
+}
+
+.mt{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+    margin-top: 70px;
+    margin-left: 90px;
+}
+
+.mainText{
+    margin-left: 50px;
+}
+
+.bannerConTent{
+    display: flex;
+}
+
+.bLeft{
+    width: 50%;
+    height: 700px;
+    /* border: 1px solid black; */
+    margin-top: 200px;
+}
+
+.buttn{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 15px;
+    border: none;
+    padding: 3px 15px;
+    margin-left: 90px;
+    margin-top: 50px;
+}
+
+.bPara{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    color: white;
+    margin-left: 90px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.bright{
+    width: 100%;
+    height: 700px;
+    margin-top: 200px;
+    /* border: 1px solid black; */
+}
+
+.imgg{
+    position: absolute;
+    margin-top: 50px;
+}
+
+.imggg{
+    position: absolute;
+    margin-top: 550px;
+    right: 550px;
+    
+}
+
+.leave{
+    position: absolute;
+    right: 0px;
+    top: 710px;
+}
+
+.TitleText{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.mPara{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 17   px;
+}
+
+.mainMenu{
+    display: flex;
+    margin-left: 20px;
+}
+
+.mm1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.pp1{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+.menu1{
+    margin-left: 100px;
+    margin-top: 70px;
+}
+
+.buttn2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 25px;
+    border: none;
+    padding: 10px 50px;
+    margin-top: 100px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.733);
+}
+
+.about{
+    width: 100%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.87);
+}
+
+.about{
+    text-align: center;
+}
+
+.aboutIMG{
+    padding-top: 50px;
+}
+
+.aboutText{
+    display: flex;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+
+.aPara1{
+    color: white;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    padding-left: 70px;
+}
+
+.buttn3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 23px;
+    border: none;
+    padding: 10px 50px;
+    margin-top: 50px;
+    color: black;
+    background-color: white;
+}
+
+.discount{
+    width: 100%;
+    height: 1250px;
+    /* border: 1px solid black; */
+}
+
+.d1IMG{
+    margin-left: 50px;
+}
+
+.firstDiv{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    margin-top: 50px;
+}
+
+.dtext{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.dt{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+}
+
+.dp{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-top: 40px;
+}
+
+.secDiv{
+    display: flex;
+}
+
+.d2text{
+    margin-top: 250px;
+    margin-left: 170px;
+}
+
+.d2IMG{
+    margin-left: 170px;
+    margin-top: 100px;
+}
+
+.pizza{
+    background-image: url(images/bannerBack.png);
+    width: 100%;
+    height: 1056px;
+}
+
+.pText{
+    text-align: center;
+    padding-top: 150px;
+}
+
+.pPara{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 30px;
+}
+
+.leave1{
+    position: absolute;
+    left: -50px;
+    margin-top: -160px;
+}
+
+.inPizza{
+    position: absolute;
+    margin-left: 450px;
+}
+
+.slice{
+    position: absolute;
+    margin-top: 480px;
+    margin-left: 190px;
+}
+
+.review{
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid black; */
+}
+
+.reviews{
+    display: flex;
+    margin-top: 350px;
+    margin-left: 120px;
+}
+
+.r1{
+    margin-left: 70px;
+}
+
+.rP{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.email{
+    background-color: rgba(0, 0, 0, 0.849);
+    width: 100%;
+    height: 700px;
+}
+
+.eLeave{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -65px;
+}
+
+.emailTitle{
+    text-align: center;
+    padding-top: 200px;
+}
+.eText{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+}
+
+.ePara{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.emailForm2 input{
+    border-radius: 20px;
+    border: none;
+    padding-right: 200px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.emailForm2 button{
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    background-color: rgb(61, 61, 61);
+    color: white;
+    padding: 10px 30px;
+    margin-left: -90px;
+}
+
+.footer{
+    width: 100%;
+    height: 700px;
+    /* border: 1px solid black; */
+}
+
+.whole{
+    display: flex;
+}
+
+.left2{
+    width: 50%;
+    padding-top: 250px;
+    margin-left: 90px;
+}
+
+.right2{
+    width: 50%;
+    display: flex;
+    padding-top: 250px;
+    margin-right: 50px;
+}
+
+.footerText{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.footerPara{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.about2{
+    margin-left: 70px;
+}
